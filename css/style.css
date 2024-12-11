@@ -23,14 +23,20 @@ body{
     margin-top: 25px;
 
 }
-.row_1 .pictures{
-    justify-content: center;
-    display: flex;
-    width: 100px;
+.pictures{
     position: relative;
-    
-    margin-left: -20px;
-    left: 325px;
+    /* margin-left: -10px; */
+    left: 250px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 120px;
+    margin: 0 -10px;
+    height: 80;
+
 }
 .row_1 h1{
     font-family: "Montserrat-ExtraBold";
