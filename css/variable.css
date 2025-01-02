@@ -1,22 +1,17 @@
 
-:root {
-    --texto-blanco: white;
-    --rojo: red;
-}
 
 @font-face{
-    font-family: 'Montserrat-ExtraBold';
-    src: url(../Storage/font/Montserrat/Montserrat-ExtraBold.ttf);
+    font-family: 'Avenir-Roman';
+    src: url(../Storage/font/Avenir/AvenirLTStd-Roman.otf);
 }
 @font-face{
-    font-family: 'Montserrat-Regular';
-    src: url(../Storage/font/Montserrat/Montserrat-Regular.ttf);
+    font-family: 'Avenir-Heavy';
+    src: url(../Storage/font/Avenir/AvenirLTStd-Heavy.otf);
 }
-@font-face{
-    font-family: 'Montserrat-Medium';
-    src: url(../Storage/font/Montserrat/Montserrat-Medium.ttf);
+
+:root {
+    --color-1:#252525
 }
-@font-face{
-    font-family: 'Montserrat-SemiBold';
-    src: url(../Storage/font/Montserrat/Montserrat-SemiBold.ttf);
+:root {
+    --color-2:#ffff
 }
