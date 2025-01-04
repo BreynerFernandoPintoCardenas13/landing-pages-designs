@@ -8,38 +8,31 @@
 }
 body{
     background-color: #ffff;
+    margin: auto;
 }
 .row_1{
     width: 539px;
     height: 100px;
     position: absolute;
-    top: 70px;
-    
-    left: 400px;
+    top: 120px;
+    margin: auto;
+    left: 40px;
     margin-left: 25px;
     margin-right: 200px;
 }
 .row_1 div{
     width: 110px;
-    margin-top: 25px;
+    margin-top: 2px;
+    margin: auto;
 
-}
-.row_1 .pictures{
-    justify-content: center;
-    display: flex;
-    width: 100px;
-    position: relative;
-    
-    margin-left: -20px;
-    left: 325px;
 }
 .row_1 h1{
     font-family: "Avenir-Heavy";
     font-size: 64px;
-    text-align: center;
     color: var(--color-1);
-    top: 300;
-    width: 700px;
+    top: 320;
+    margin: auto;
+    width: 3;
 }
 .row_1 span{
     color:var(--color-2);
@@ -47,18 +40,18 @@ body{
 .row_1 h2{
     font-family: "Avenir-Roman";
     font-weight: lighter;
+    text-align: left;
     font-size: 18px;
-    text-align: center;
-    line-height: 1.7;
+    line-height: 1.9;
     color: var(--color-1);
     position: absolute;
-    top: 165px;
-    left: 50px;
-    width: 600px;
+    left:40x;
+    width: 400px;
     height: 500px;
+    top: 250px;
 }
 .row_1 button{
-    width: 110px;
+    width: 125px;
     height: 50px;
     color: var(--color-2);
     font-family: "Avenir-Roman";
@@ -69,8 +62,8 @@ body{
     overflow: none;
     background-color: var(--color-1);
     position: absolute;
-    top: 300px;
-    left: 290px;
+    top: 410px;
+    left: px;
 }
 .row_2{
     width: 539px;
@@ -80,29 +73,41 @@ body{
     top: 60px;
     right: 300px;
 }
-.images div{
-    width: 20px;
-    height: 150px;
-    top: 600px;
-}
 
-.images .pictures{
-    justify-content: center;
+.imageLeft{
     display: flex;
-    width: 15px;
+    width: 400px;
+    height: 450px;
     position: relative;
-    top: 450px;
+    top: 30px;
     gap: 15px;
     margin-left: 455px;
-    left: 325px;
+    left: 100px;
 }
-.images .pictures2{
+.imageRight{
+    display: flex;
+    width: 400px;
+    height: 450px;
+    position: relative;
+    top: -300px;
+    gap: 15px;
+    margin-left: 455px;
+    left: 550px;
+}
+
+.images .pictures2 {
     justify-content: center;
     display: flex;
-    width: 100px;
+    width: 550px;
     position: relative;
-    top: 460px;
+    top: -200px;
     margin-left: 410px;
-    gap: 15px;
-    left: 325px;
+    gap: 60px;
+    left: 35px;
+}
+
+.pictures2 img{
+    display: flex;
+    width: 400px;
+    top: 200px;
 }
