@@ -18,118 +18,58 @@ body{
     margin-left: 25px;
     margin-right: 200px;
 }
-.row_1 div{
-    width: 110px;
-    margin-top: 25px;
 
-}
-.row_1 .pictures{
-    justify-content: center;
-    display: flex;
-    width: 100px;
-    position: relative;
-    
-    margin-left: -20px;
-    left: 325px;
-}
 .row_1 h1{
-    font-family: "Montserrat-ExtraBold";
-    font-size: 64px;
-    color: var(--color-1);
+    font-family: "Poppins-Bold";
+    font-size: 90px;
+    color: #FEC3C7;
+    left: 40px;
+    position: absolute;
     top: 300;
 }
 .row_1 span{
-    color:var(--color-2);
+    color: #9AD7F3;
+}
+.row_1 span.span2{
+    color: #6BDFDA;
 }
 .row_1 h2{
-    font-family: "Montserrat-Regular";
+    font-family: "Poppins-Regular";
     font-weight: lighter;
     font-size: 18px;
-    color: var(--color-1);
+    color: #fff;
     position: absolute;
-    top: 380px;
+    top: 417px;
+    left: 40px;
+    line-height: 1.7;
 }
 .row_1 button{
-    width: 250px;
+    width: 140px;
     height: 60px;
     color: var(--color-1);
-    font-family: "Montserrat-Medium";
+    font-family: "Poppins-Regular";
     font-size: 22px;
     border-radius: 50px;
     border: none;
     overflow: none;
-    background-color: var(--color-3);
+    background-color: #fff;
     position: absolute;
-    top: 480px;
+    top: 550px;
+    left: 40px  ;
 }
 .row_2{
     width: 539px;
     height: 720px;
     /* background: blue; */
     position: absolute;
-    top: 60px;
-    right: 300px;
+    top: auto;
+    right: auto;
 }
 
 .row_2 img{
-    width: 1270px;
-    height: 1130px;
+    width: 850px;
     position: relative;
-    top: -110px;
-    left: -400px;
+    top: 42px;
+    left: 950px;
     z-index: -8;
-}
-
-.row_3{
-    width: 1112px;
-    height: 100px;
-    /* background: orange; */
-    position: absolute;
-    bottom: 172px;  
-    left: 100px; 
-}
-.bt1{
-    width: 400px;
-    height: 100px;
-    color: var(--color-1);
-    font-family: "Montserrat-SemiBold";
-    font-size: 22px;
-    /* font-weight: 100; */
-    border-radius: 50px;
-    border: lab(from color l a b);
-    overflow: none;
-    background: linear-gradient(to right, #ffffff56, transparent);
-    position: relative;
-    right: 70px; 
-    top: -10px;
-}   
-
-.bt2{
-    width: 300px;
-    height: 100px;
-    color: var(--color-1);
-    font-family: "Montserrat-SemiBold";
-    font-size: 24px;
-    border-radius: 50px;
-    border: none;
-    overflow: none;
-    background: linear-gradient(to right, #ffffff56, transparent);
-    position: relative;
-    right: 50px;
-    top: -10px;
-}
-
-.bt3{
-    width: 300px;
-    height: 100px;
-    color: var(--color-1);
-    font-family: "Montserrat-SemiBold";
-    font-size: 22px;
-    border-radius: 50px;
-    border: none;
-    overflow: none;
-    background: linear-gradient(to right, #ffffff56, transparent);
-    position: relative;
-    right: -40px;
-    top: -10px;
 }
