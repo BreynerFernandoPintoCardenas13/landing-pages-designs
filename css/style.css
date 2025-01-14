@@ -13,7 +13,7 @@ body{
     width: 539px;
     height: 240px;
     position: absolute;
-    top: 70px;
+    top: 0px;
     left: 40px;
     margin-left: 25px;
     margin-right: 200px;
@@ -21,12 +21,12 @@ body{
 
 .row_1 h1{
     font-family: "Avenir-Heavy";
-    font-size: 90px;
+    font-size: 80px;
     color: #252525;
     left: 40px;
     position: relative;
-    top: 300;
-    width:700px;
+    top: 30px;
+    width:200px;
 }
 .row_1 h2{
     font-family: "Avenir-Roman";
@@ -34,9 +34,10 @@ body{
     font-size: 21px;
     color: #333333;
     position: absolute;
-    top: 245px;
+    top: 325px;
     left: 40px;
     line-height: 1.7;
+    width: 800px;
 }
 .row_1 button{
     width: 140px;
@@ -49,7 +50,7 @@ body{
     overflow: none;
     background-color: #252525;
     position: absolute;
-    top: 380px;
+    top: 450px;
     left: 40px  ;
 }
 .row_2{
@@ -61,24 +62,62 @@ body{
     right: auto;
 }
 
-.row_2 img.back{
+.row_2 img.image{
     width: 350px;
     position: relative;
     top: 42px;
-    left: 950px;
+    left: 1450px;
     z-index: -1;
 }
 
-.row_2 img.out{
+.row_2 img.image2{
     position: absolute;
     width: 350px;
-    top: 230px;
-    left: 1200px;
+    top: 300px;
+    left: 1050px;
 }
 
-.row_2 img.stick{
-    width: 1100px;
-    top: 700px;
+.row_2 img.image3{
+    width: 350px;
+    top: 480px;
     position: absolute;
+    left: 645px;
+}
 
+.row_2 img.user{
+    width: 700px;
+    top: 850px;
+    position: absolute;
+    left: 1050px;
+}
+
+.row_2 img.spiral{
+    width: 350px;
+    position: absolute;
+    top: 50px;
+    left: 580px;
+    z-index: -1;
+}
+
+.row_2 img.estrella{
+    width: 250px;
+    position: absolute;
+    top: 575px;
+    left: 1500px;
+    z-index: 1;
+}
+
+.row_2 img.estrella2{
+    width: 250px;
+    position: absolute;
+    top: 360px;
+    left: 900px;
+    z-index: 1;
+}
+
+.row_2 img.spiral2{
+    position: absolute;
+    left: 300px;
+    width: 200px;
+    top: 500px;
 }
