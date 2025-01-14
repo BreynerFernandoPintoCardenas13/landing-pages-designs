@@ -2,21 +2,18 @@
 :root {
     --texto-blanco: white;
     --rojo: red;
+    --color-3: #E5B94B;
 }
 
 @font-face{
-    font-family: 'Montserrat-ExtraBold';
-    src: url(../Storage/font/Montserrat/Montserrat-ExtraBold.ttf);
+    font-family: 'WorkSans-Bold';
+    src: url(../Storage/font/Montserrat/WorkSans-Bold.ttf);
 }
 @font-face{
-    font-family: 'Montserrat-Regular';
-    src: url(../Storage/font/Montserrat/Montserrat-Regular.ttf);
+    font-family: 'WorkSans-Light';
+    src: url(../Storage/font/Montserrat/WorkSans-Light.ttf);
 }
-@font-face{
-    font-family: 'Montserrat-Medium';
-    src: url(../Storage/font/Montserrat/Montserrat-Medium.ttf);
-}
-@font-face{
-    font-family: 'Montserrat-SemiBold';
-    src: url(../Storage/font/Montserrat/Montserrat-SemiBold.ttf);
+@font-face {
+    font-family: "WorSans-Medium";
+    src: url(../storage/font/Montserrat/WorkSans-Medium.ttf);
 }
