@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #080c15;
+    background-color: #fff;
 }
 .row_1{
     width: 539px;
@@ -20,41 +20,36 @@ body{
 }
 
 .row_1 h1{
-    font-family: "Poppins-Bold";
+    font-family: "Avenir-Heavy";
     font-size: 90px;
-    color: #FEC3C7;
+    color: #252525;
     left: 40px;
-    position: absolute;
+    position: relative;
     top: 300;
-}
-.row_1 span{
-    color: #9AD7F3;
-}
-.row_1 span.span2{
-    color: #6BDFDA;
+    width:700px;
 }
 .row_1 h2{
-    font-family: "Poppins-Regular";
+    font-family: "Avenir-Roman";
     font-weight: lighter;
-    font-size: 18px;
-    color: #fff;
+    font-size: 21px;
+    color: #333333;
     position: absolute;
-    top: 417px;
+    top: 245px;
     left: 40px;
     line-height: 1.7;
 }
 .row_1 button{
     width: 140px;
     height: 60px;
-    color: var(--color-1);
+    color: #ffff;
     font-family: "Poppins-Regular";
     font-size: 22px;
     border-radius: 50px;
     border: none;
     overflow: none;
-    background-color: #fff;
+    background-color: #252525;
     position: absolute;
-    top: 550px;
+    top: 380px;
     left: 40px  ;
 }
 .row_2{
@@ -66,10 +61,24 @@ body{
     right: auto;
 }
 
-.row_2 img{
-    width: 850px;
+.row_2 img.back{
+    width: 350px;
     position: relative;
     top: 42px;
     left: 950px;
-    z-index: -8;
+    z-index: -1;
+}
+
+.row_2 img.out{
+    position: absolute;
+    width: 350px;
+    top: 230px;
+    left: 1200px;
+}
+
+.row_2 img.stick{
+    width: 1100px;
+    top: 700px;
+    position: absolute;
+
 }
