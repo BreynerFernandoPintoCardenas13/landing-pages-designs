@@ -14,55 +14,47 @@ body{
     width: 539px;
     height: 240px;
     position: absolute;
-    top: 120px;
+    top: auto;
     margin: auto;
     left: 40px;
     margin-left: 25px;
     margin-right: 200px;
 }
-.row_1 div{
-    width: 110px;
-    margin-top: 2px;
-    margin: auto;
-
-}
 .row_1 h1{
     font-family: "Montserrat-ExtraBold";
-    font-size: 64px;
+    font-size: 80px;
     color: var(--color-1);
-    top: 320;
+    top: 30px;
     margin: auto;
     width: 3;
-}
-.row_1 span{
-    color:var(--color-2);
+    position: absolute;
 }
 .row_1 h2{
     font-family: "Montserrat-Regular";
     font-weight: lighter;
     text-align: left;
-    font-size: 18px;
-    line-height: 1.9;
+    font-size: 26px;
+    line-height: 1.6;
     color: var(--color-1);
     position: absolute;
     left:40x;
     width: 400px;
     height: 500px;
-    top: 250px;
+    top: 310px;
 }
 .row_1 button{
-    width: 125px;
+    width: 160px;
     height: 50px;
-    color: var(--color-2);
-    font-family: "Avenir-Roman";
+    color: #ffff;
+    font-family: "Poppins-Regular";
     font-weight: lighter;
-    font-size: 12px;
-    border-radius: 10px;
+    font-size: 20px;
+    border-radius: 30px;
     border: none;
     overflow: none;
-    background-color: var(--color-3);
+    background-color: #457D61;
     position: absolute;
-    top: 410px;
+    top: 500px;
     left: px;
 }
 .row_2{
@@ -76,38 +68,54 @@ body{
 
 .imageLeft{
     display: flex;
-    width: 400px;
-    height: 450px;
+    width: 500px;
     position: relative;
-    top: 30px;
-    gap: 15px;
-    margin-left: 455px;
-    left: 100px;
+    top: 600px;
+    left: 60px;
 }
 .imageRight{
     display: flex;
-    width: 400px;
-    height: 450px;
-    position: relative;
-    top: -300px;
+    width: 500px;
+    position: absolute;
+    top: 30px;
     gap: 15px;
-    margin-left: 455px;
-    left: 550px;
+    left:1550px;
 }
 
-.images .pictures2 {
-    justify-content: center;
-    display: flex;
-    width: 550px;
-    position: relative;
-    top: -200px;
-    margin-left: 410px;
-    gap: 60px;
-    left: 35px;
+.centerImage {
+    width: 500px;
+    top: 110px;
+    position: absolute;
+    left: 800px;
 }
 
-.pictures2 img{
-    display: flex;
+.row_3{
+    width: 539px;
+    height: 240px;
+    position: absolute;
+    top: auto;
+    margin: auto;
+    left: 1500px;
+}
+.row_3 h1{
+    font-family: "Montserrat-ExtraBold";
+    font-size: 80px;
+    color: var(--color-1);
+    top: 300px;
+    margin: auto;
+    width: 3;
+    position: absolute;
+}
+.row_3 h2{
+    font-family: "Montserrat-Regular";
+    font-weight: lighter;
+    text-align: left;
+    font-size: 26px;
+    line-height: 1.6;
+    color: var(--color-1);
+    position: absolute;
+    left:900x;
     width: 400px;
-    top: 200px;
+    height: 500px;
+    top: 100px;
 }
