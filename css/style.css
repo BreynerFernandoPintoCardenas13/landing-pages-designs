@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #080c15;
+    background-color: #fff;
 }
 .row_1{
     width: 539px;
@@ -30,106 +30,118 @@ body{
     position: relative;
     
     margin-left: -20px;
-    left: 325px;
+    left: 0px;
 }
 .row_1 h1{
-    font-family: "Montserrat-ExtraBold";
-    font-size: 64px;
+    font-family: "Times-Regular";
+    font-size: 125px;
     color: var(--color-1);
-    top: 300;
-}
-.row_1 span{
-    color:var(--color-2);
+    top: 100px;
+    text-align: center;
+    left: 800px;
+    position: absolute;
 }
 .row_1 h2{
-    font-family: "Montserrat-Regular";
+    font-family: "Times-Regular";
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 23px;
     color: var(--color-1);
     position: absolute;
-    top: 380px;
+    top: 580px;
+    text-align: center;
+    width: 400px;
+    left: 790px;
+    line-height: 1.6;
 }
 .row_1 button{
-    width: 250px;
+    width: 180px;
     height: 60px;
-    color: var(--color-1);
-    font-family: "Montserrat-Medium";
-    font-size: 22px;
+    color: #fff;
+    font-family: "Poppins-Regular";
+    font-size: 25px;
     border-radius: 50px;
     border: none;
     overflow: none;
-    background-color: var(--color-3);
+    background-color: #252525;
     position: absolute;
-    top: 480px;
+    top: 760px;
+    left: 895px;
 }
 .row_2{
     width: 539px;
     height: 720px;
     /* background: blue; */
     position: absolute;
-    top: 60px;
-    right: 300px;
+    top: auto;
+    right: auto;
 }
 
-.row_2 img{
-    width: 1270px;
-    height: 1130px;
+.row_2 img.fondo{
+    width: 900px;
     position: relative;
-    top: -110px;
-    left: -400px;
+    top: 5px;
+    left: 680px;
     z-index: -8;
 }
-
-.row_3{
-    width: 1112px;
-    height: 100px;
-    /* background: orange; */
+.row_2 img.imageTop{
+    width: 500px;
     position: absolute;
-    bottom: 172px;  
-    left: 100px; 
+    top: 5px;
+    left: 1450px;
+    z-index: 1;
 }
-.bt1{
-    width: 400px;
-    height: 100px;
-    color: var(--color-1);
-    font-family: "Montserrat-SemiBold";
-    font-size: 22px;
-    /* font-weight: 100; */
-    border-radius: 50px;
-    border: lab(from color l a b);
-    overflow: none;
-    background: linear-gradient(to right, #ffffff56, transparent);
-    position: relative;
-    right: 70px; 
-    top: -10px;
-}   
-
-.bt2{
-    width: 300px;
-    height: 100px;
-    color: var(--color-1);
-    font-family: "Montserrat-SemiBold";
-    font-size: 24px;
-    border-radius: 50px;
-    border: none;
-    overflow: none;
-    background: linear-gradient(to right, #ffffff56, transparent);
-    position: relative;
-    right: 50px;
-    top: -10px;
+.row_2 img.imageFall{
+    width: 500px;
+    position: absolute;
+    top: 400px;
+    left: 140px;
+    z-index: 1;
 }
 
-.bt3{
-    width: 300px;
-    height: 100px;
-    color: var(--color-1);
-    font-family: "Montserrat-SemiBold";
-    font-size: 22px;
-    border-radius: 50px;
-    border: none;
-    overflow: none;
-    background: linear-gradient(to right, #ffffff56, transparent);
-    position: relative;
-    right: -40px;
-    top: -10px;
+.row_2 img.textOne{
+    width: 500px;
+    position: absolute;
+    top: 40px;
+    left: 140px;
+    z-index: 1;
+}
+
+.row_2 img.explosion{
+    width: 250px;
+    position: absolute;
+    top: 170px;
+    left: 160px;
+    z-index: 1;
+}
+
+.row_2 img.start{
+    width: 280px;
+    position: absolute;
+    top: 170px;
+    left: 450px;
+    z-index: 1;
+}
+
+.row_2 img.textTwo{
+    width: 500px;
+    position: absolute;
+    top: 900px;
+    left: 1450px;
+    z-index: 1;
+}
+
+.row_2 img.party{
+    width: 200px;
+    position: absolute;
+    top: 700px;
+    left: 1700px;
+    z-index: 1;
+}
+
+.row_2 img.start2{
+    width: 230px;
+    position: absolute;
+    top: 600px;
+    left: 1400px;
+    z-index: 1;
 }
