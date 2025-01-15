@@ -33,39 +33,38 @@ body{
     left: 0px;
 }
 .row_1 h1{
-    font-family: "Times-Regular";
-    font-size: 125px;
-    color: var(--color-1);
+    font-family: "Poppins-Bold";
+    font-size: 90px;
+    color: #2C1001;
     top: 100px;
-    text-align: center;
-    left: 800px;
+    left: 100px;
     position: absolute;
+    width: 800px;
 }
 .row_1 h2{
-    font-family: "Times-Regular";
+    font-family: "Poppins-Light";
     font-weight: lighter;
-    font-size: 23px;
-    color: var(--color-1);
+    font-size: 28px;
+    color: #2C1001;
     position: absolute;
-    top: 580px;
-    text-align: center;
-    width: 400px;
-    left: 790px;
+    top: 360px;
+    width: 800px;
+    left: 100px;
     line-height: 1.6;
 }
 .row_1 button{
-    width: 180px;
-    height: 60px;
-    color: #fff;
+    width: 280px;
+    height: 80px;
+    color: #2C1001;
     font-family: "Poppins-Regular";
-    font-size: 25px;
+    font-size: 21px;
     border-radius: 50px;
     border: none;
     overflow: none;
-    background-color: #252525;
+    background-color: #FFDE81;
     position: absolute;
-    top: 760px;
-    left: 895px;
+    top: 510px;
+    left: 100px;
 }
 .row_2{
     width: 539px;
@@ -77,71 +76,16 @@ body{
 }
 
 .row_2 img.fondo{
-    width: 900px;
+    width: 1020px;
     position: relative;
     top: 5px;
-    left: 680px;
+    left: 1200px;
     z-index: -8;
 }
-.row_2 img.imageTop{
-    width: 500px;
+.row_2 img.list{
+    width: 1020px;
     position: absolute;
-    top: 5px;
-    left: 1450px;
-    z-index: 1;
-}
-.row_2 img.imageFall{
-    width: 500px;
-    position: absolute;
-    top: 400px;
-    left: 140px;
-    z-index: 1;
-}
-
-.row_2 img.textOne{
-    width: 500px;
-    position: absolute;
-    top: 40px;
-    left: 140px;
-    z-index: 1;
-}
-
-.row_2 img.explosion{
-    width: 250px;
-    position: absolute;
-    top: 170px;
-    left: 160px;
-    z-index: 1;
-}
-
-.row_2 img.start{
-    width: 280px;
-    position: absolute;
-    top: 170px;
-    left: 450px;
-    z-index: 1;
-}
-
-.row_2 img.textTwo{
-    width: 500px;
-    position: absolute;
-    top: 900px;
-    left: 1450px;
-    z-index: 1;
-}
-
-.row_2 img.party{
-    width: 200px;
-    position: absolute;
-    top: 700px;
-    left: 1700px;
-    z-index: 1;
-}
-
-.row_2 img.start2{
-    width: 230px;
-    position: absolute;
-    top: 600px;
-    left: 1400px;
+    top: 800px;
+    left: 155px;
     z-index: 1;
 }

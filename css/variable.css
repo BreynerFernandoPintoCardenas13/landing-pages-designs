@@ -5,12 +5,12 @@
 }
 
 @font-face{
-    font-family: 'Times-Regular';
-    src: url(../Storage/font/Montserrat/ABeeZee-Regular.otf);
+    font-family: 'Poppins-Bold';
+    src: url(../Storage/font/Montserrat/Poppins-Bold.ttf);
 }
 @font-face{
-    font-family: 'Montserrat-Regular';
-    src: url(../Storage/font/Montserrat/Montserrat-Regular.ttf);
+    font-family: 'Poppins-Light';
+    src: url(../Storage/font/Montserrat/Poppins-Light.ttf);
 }
 @font-face{
     font-family: 'Poppins-Regular';
