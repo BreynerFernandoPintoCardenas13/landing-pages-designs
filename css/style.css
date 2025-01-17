@@ -7,44 +7,76 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #fff;
+    background-color: #F2F2F2;
 }
 .row_1{
     width: 539px;
     height: 240px;
     position: absolute;
-    top: 70px;
+    top: auto;
     left: 40px;
     margin-left: 25px;
     margin-right: 200px;
 }
 .row_1 div{
     width: 110px;
-    margin-top: 25px;
+    margin-top: auto;
 
 }
 .row_1 h1{
-    font-family: "Avenir-Roman";
-    font-size: 64px;
+    font-family: "Poppins-SemiBold";
+    font-size: 56px;
     color: var(--color-1);
-    top: 300;
+    top: 30px;
     width: 750px;
-    left: 110px;
+    left: 670px;
     position: absolute;
 }
-.row_2{
-    width: auto;
-    height: 20px;
-    /* background: blue; */
+.row_1 h2{
+    font-family: "Avenir-Roman";
+    width: 700px;
+    text-align: center;
+    font-weight: lighter;
+    left: 680px;
     position: absolute;
-    top: 60px;
-    right: 300px;
+    top: 125px;
 }
 
-.row_2 img{
+.row_2{
+    height: 1550px;
+}
+
+.imageP{
     width: 1500px;
-    position: relative;
-    top: 230px;
-    left: 100px;
+    position: absolute;
+    top: 500px;
+    left: 325px;
     z-index: -8;
+}
+
+.button1{
+    font-size: 22px;
+    width: 170px;
+    height: 70px;
+    color: #fff;
+    border-radius: 40px;
+    background-color: black;
+    position: absolute;
+    left: 990px;
+    top: 270px;
+}
+
+.lista{
+    width: 1100px;
+    top: 400px;
+    left: 530px;
+    position: absolute;
+
+}
+
+.images{
+width: 1500px;
+position: absolute;
+left: 325px;
+top: 1115px;
 }
