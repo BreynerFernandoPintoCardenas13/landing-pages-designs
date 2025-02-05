@@ -1,5 +1,5 @@
-@import url(variable.css);
 
+@import url(variable.css);
 
 *{
     margin: 0;
@@ -7,42 +7,75 @@
     box-sizing: border-box;
 }
 body{
+    background-color: #ffff;
+    margin: auto;
     background-color: #fff;
 }
 .row_1{
     width: 539px;
+    height: 100px;
     height: auto;
     position: absolute;
+    top: 120px;
+    margin: auto;
+    left: 40px;
+    margin-left: 25px;
+    margin-right: 200px;
     top: 70px;
     left: 800px;
 
 }
 .row_1 div{
+    width: 110px;
+    margin-top: 2px;
+    margin: auto;
+
     width: 20000px;
     margin-top: px;
 
 }
 .row_1 h1{
     font-family: "Avenir-Heavy";
+    font-family: "Avenir-Heavy";
     font-size: 64px;
     color: var(--color-1);
+    top: 320;
+    margin: auto;
+    width: 3;
+}
+.row_1 span{
+    color:var(--color-2);
     top: 300;
     left: 200px;
 }
 .row_1 h2{
     font-family: "Avenir-Roman";
+    font-family: "Avenir-Roman";
     font-weight: lighter;
+    text-align: left;
     text-align: left;
     font-size: 18px;
     line-height: 1.9;
+    line-height: 1.9;
     color: var(--color-1);
     position: absolute;
+    left:40x;
+    width: 400px;
+    height: 500px;
+    top: 250px;
     top: 200px;
     line-height: 1.5;
     color: #5c5c5c;
     width: 500px;
 }
 .row_1 button{
+    width: 125px;
+    height: 50px;
+    color: var(--color-2);
+    font-family: "Avenir-Roman";
+    font-weight: lighter;
+    font-size: 12px;
+    border-radius: 10px;
     width: 150px;
     height: 60px;
     color: #ffff;
@@ -51,8 +84,11 @@ body{
     border-radius: 50px;
     border: none;
     overflow: none;
+    background-color: var(--color-1);
     background-color: #252525;
     position: absolute;
+    top: 410px;
+    left: px;
     top: 330px;
 }
 .row_2{
@@ -64,6 +100,10 @@ body{
     left: 0px;
 }
 
+.images .pictures2 {
+    justify-content: center;
+    display: flex;
+    width: 550px;
 .row_2 img{
     width: 700px;
     position: relative;
