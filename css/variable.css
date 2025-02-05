@@ -3,6 +3,8 @@
 @font-face{
     font-family: 'Avenir-Roman';
     src: url(../Storage/font/Avenir/AvenirLTStd-Roman.otf);
+    font-family: 'Avenir-Heavy';
+    src: url(../Storage/font/Montserrat/AvenirLTStd-Heavy.otf);
 }
 @font-face{
     font-family: 'Avenir-Heavy';
@@ -12,6 +14,12 @@
 :root {
     --color-1:#252525
 }
-:root {
-    --color-2:#ffff
+
+@font-face{
+    font-family: 'Avenir-Heavy';
+    src: url(../Storage/font/Montserrat/AvenirLTStd-Heavy.otf);
+}
+@font-face{
+    font-family: 'Avenir-Roman';  
+    src: url(../Storage/font/Montserrat/AvenirLTStd-Roman.otf);
 }
