@@ -1,25 +1,17 @@
-
-
-@font-face{
-    font-family: 'Avenir-Roman';
-    src: url(../Storage/font/Avenir/AvenirLTStd-Roman.otf);
-    font-family: 'Avenir-Heavy';
-    src: url(../Storage/font/Montserrat/AvenirLTStd-Heavy.otf);
-}
-@font-face{
-    font-family: 'Avenir-Heavy';
-    src: url(../Storage/font/Avenir/AvenirLTStd-Heavy.otf);
-}
-
 :root {
-    --color-1:#252525
+    --primary-color: #111111;
+    --secondary-color: #685FD4;
+    --text-gray: #555555;
+    --background-color: #ffffff;
+    --font-heavy: 'Avenir-Heavy';
+    --font-roman: 'Avenir-Roman';
+}
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(/storage/font/Montserrat/AvenirLTStd-Heavy.otf);
 }
 
-@font-face{
-    font-family: 'Avenir-Heavy';
-    src: url(../Storage/font/Montserrat/AvenirLTStd-Heavy.otf);
-}
-@font-face{
-    font-family: 'Avenir-Roman';  
-    src: url(../Storage/font/Montserrat/AvenirLTStd-Roman.otf);
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(/storage/font/Montserrat/AvenirLTStd-Roman.otf);
 }
